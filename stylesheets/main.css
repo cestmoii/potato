@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: 6000px;
+  background-image: url(../potato-4.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: MuseoSansCyrl-500;
+}
+
+header {
+  font-family: MuseoSansCyrl-100;
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  flex-wrap: inherit;
+  align-content: center;
+  position: relative;
+}
+
+ul {
+  position: relative;
+  left: 304px;
+  margin: auto;
+}
+
+li {
+  float: left;
+  margin-left: 14px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding: 11px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#buy {
+  margin-left: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-width: 1px;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  border-radius: 100px;
+}
+
+#buy:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.wrap {
+  width: 100%;
+  height: 978px;
+  /* background: url(../noise.svg); */
+  background: rgb(167,142,120);
+  background: radial-gradient(circle, rgba(167,142,120,1) 0%, rgba(203,179,155,1) 40%, rgba(205,183,162,1) 50%, rgba(203,179,155,1) 60%, rgba(167,142,120,1) 100%);
+}
+
+.content {
+  position: relative;
+  top: 172px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 100%;
+  align-content: center;
+}
+
+.textwrap {
+  width: 100%;
+  height: 100px;
+}
+
+.potatoes {
+  position: relative;
+  left: -55px;
+  top: 37px;
+  display: block;
+  margin: auto;
+  width: 669px;
+  height: 669px;
+  background-image: url(../potatoes1.png);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+  letter-spacing: 1.1px;
+  color: white;
+}
+
+p {
+  font-family: MuseoSansCyrl-100;
+  text-align: center;
+  font-size: 27px;
+  line-height: 66px;
+  color: white;
+}
+
+strong {
+  font-family: MuseoSansCyrl-500;
+}

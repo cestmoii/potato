@@ -1,0 +1,13 @@
+@import 'reset.css';
+
+@import 'main.css';
+
+@font-face {
+   font-family: MuseoSansCyrl-500;
+   src: url('../font/MuseoSans/MuseoSansCyrl-500.ttf');
+}
+
+@font-face {
+   font-family: MuseoSansCyrl-100;
+   src: url('../font/MuseoSans/MuseoSansCyrl-100.ttf');
+}
